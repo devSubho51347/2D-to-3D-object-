@@ -4,20 +4,6 @@
 ![Photo by ZMorph Multitool 3D Printer](https://cdn-images-1.medium.com/max/3900/1*yUZET5CWqR3yyDMHQ8gnqQ.jpeg)
 Photo by ZMorph Multitool 3D Printer
 
-I recently recorded a four-part video series for my Youtube channel on how I attempted to create a 3D model out of a photo, using Python, Numpy, and Google Colab.
-
-For this programming, I relied on the Numpy STL library which can create 3D models using “simple” Numpy arrays.
-
-### Why I did it
-
-I am a 3D Printing enthusiast so I set myself a challenge to use this library to create a 3D model of a photo that, when printed in translucent white is called a **Lithophane**. There are a few tools available to do this without any coding. But where is the fun in that?
-
-### I want to inspire You
-
-Just to be clear, I didn’t create this series to show you an amazing solution for creating 3D models or to impress you with my rusty math skills, or even my rudimentary geometry or even my rudimentary Python Numpy programming skills. They are all lacking, I know. But that is really the point.
-
-I created this series to inspire anyone who wants to do software development, that anything is possible if you just give it a go. I also wanted to how software development is really done. No embellishments and no repeats! You don’t need to know everything from the start either.
-
 ### How I plan to create a 3D model of a Photo
 
 The way I plan to create a 3D model of a photo is very simple. I will load an image and convert it from colour to grayscale. Then I will resize the image to the size of the 3D model I want to create.
@@ -31,18 +17,6 @@ Then I will use the **pixel intensity** of the resized **grayscale** image to de
 * Computer with browser
 
 * **Blender** for visualising the 3D model(Or any software that can visualise STL files)
-
-* My YouTube series
-
-The first video of my series is available below:
-
-[From a Photo to a 3D Model using Python, Numpy and NumpySTL](https://www.youtube.com/playlist?list=PL3OV2Akk7XpDs8uSg6iegIKlmY8XxSrNr)
-
-The entire solution is available at [https://github.com/armindocachada/create-3d-model-using-python](https://github.com/armindocachada/create-3d-model-using-python).
-
-But I recommend that you start from scratch. I will assume you want to do the latter.
-
-When you are ready to start, head to [**Google Colab](https://colab.research.google.com/)**. Create an empty notebook and get ready.
 
 ### Install Blender
 
@@ -230,8 +204,6 @@ You can see that the remainder of the dtype definition in pretty much the same w
     *('attr', '<u2', (1,))*
 
 Did I get anything wrong? Please let me know.
-
-Finally, we have reached the end of **Part I**. It was pretty packed in terms of knowledge to absorb. So take your time, read, watch my Youtube series and in no time you will be able to read **Part II** of my article.
 
 Happy Coding!
 
